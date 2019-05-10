@@ -18,8 +18,14 @@ See the diagram below:
 
 <!-- Hack to center the image in GitHub -->
 <p align="center">
-  <img src="misc/architecture-diagram.png" alt="Architecture diagram" width="65%"/>
+  <img src="misc/architecture-diagram.png" alt="Architecture diagram" width="95%"/>
 </p>
+
+## ToDo
+1. Create a service registry
+1. Register both services in service registry
+1. Implement service-discovery for each registered service
+1. Implement an API gateway to balance between service servers
 
 ## External services
 
