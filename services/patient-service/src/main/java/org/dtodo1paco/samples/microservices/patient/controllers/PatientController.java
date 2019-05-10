@@ -4,7 +4,6 @@
 package org.dtodo1paco.samples.microservices.patient.controllers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.dtodo1paco.samples.microservices.patient.domain.Patient;
