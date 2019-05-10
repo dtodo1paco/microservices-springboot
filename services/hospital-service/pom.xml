@@ -8,7 +8,6 @@
         <version>1.0</version>
     </parent>
 	<artifactId>hospital-service</artifactId>
-	<version>1.0</version>
 	<name>hospital</name>
 	<description>Basic API for Hospital</description>
 

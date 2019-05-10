@@ -9,7 +9,6 @@
         <version>1.0</version>
     </parent>
 	<artifactId>patient-service</artifactId>
-	<version>1.0</version>
 	<name>patient-service</name>
 	<description>Basic service API for patients</description>
 
