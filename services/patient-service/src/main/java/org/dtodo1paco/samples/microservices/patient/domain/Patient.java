@@ -8,11 +8,14 @@ import java.util.Objects;
 
 import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * @author pac
  *
  */
 @Entity
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Patient {
 	@Id
 	@GeneratedValue
@@ -23,6 +26,8 @@ public class Patient {
 	private LocalDate birthDate;
 	private Long hospitalAreaId;	
 
+	public Patient() {}
+	
 	public Long getId() {
 		return id;
 	}
